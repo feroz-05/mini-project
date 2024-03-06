@@ -14,9 +14,14 @@ nav{
     background-color: #4b1818;
 }
 
-.image{
-    background-color: blue;
-    height: 400px;
+
+
+.image {
+    display: block;
+    margin: 0 auto;
+    width: 800px;
+    
+    
 }
 
 .displayName{
@@ -24,7 +29,7 @@ nav{
     font-size: 18px;
 }
 
-.Category{
+.Category, .phones{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -34,15 +39,53 @@ nav{
     flex: 1;
 }
 
-.category-image{
+.category-image , .phone-image{
     background-color: white;
     height: 150px;
     width:  150px;
     border-radius: 50%;
 }
 
-.displayPhone{
-    font-size: 30px;
-    padding: 42%;
+.displayphone
+{
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
 }
 
+.phones{
+    background-color: blueviolet;
+    height: 350px;
+}
+
+.phone-image{
+    border-radius: 0;
+    height: 200px;
+}
+
+.new-launch{
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+    height: 400px;
+    justify-content: space-around;
+}
+
+.buttons{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+        height: 150px;
+        background-color: blue;
+        align-items: center;
+}
+
+.button{
+    padding: 20px 40px;
+}
+
+.footer{
+    background-color: black;
+    height: 500px;
+}
