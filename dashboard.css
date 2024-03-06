@@ -1,0 +1,48 @@
+
+
+.header{
+    background-color: #ff0000;
+    height: 60px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    padding: 20px 0px;
+    background-color: #4b1818;
+}
+
+.image{
+    background-color: blue;
+    height: 400px;
+}
+
+.displayName{
+    text-align: center;
+    font-size: 18px;
+}
+
+.Category{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(255, 114, 114);
+    height: 200px;
+    flex: 1;
+}
+
+.category-image{
+    background-color: white;
+    height: 150px;
+    width:  150px;
+    border-radius: 50%;
+}
+
+.displayPhone{
+    font-size: 30px;
+    padding: 42%;
+}
+
