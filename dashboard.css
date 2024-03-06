@@ -1,7 +1,5 @@
-
-
 .header{
-    background-color: #ff0000;
+    background-color: #400880d7;
     height: 60px;
 }
 
@@ -11,17 +9,44 @@ nav{
     justify-content: center;
     gap: 50px;
     padding: 20px 0px;
-    background-color: #4b1818;
+    background-color: #000000;
 }
 
+nav a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
 
+nav a:hover{
+    color: #ffc219;
+}
+
+.image1{
+    padding: 20px 0px;
+    width:100%
+}
+
+.image1 img{
+    width: 195vh; 
+    cursor: pointer;
+
+}
 
 .image {
     display: block;
-    margin: 0 auto;
-    width: 800px;
-    
-    
+    margin: 5px auto;
+    width: 850px;
+}
+
+.image video{
+    width: 850px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 15px black;
+}
+
+.image:hover{
+    cursor: pointer;
 }
 
 .displayName{
@@ -34,33 +59,67 @@ nav{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    background-color: rgb(255, 114, 114);
     height: 200px;
-    flex: 1;
+
 }
 
-.category-image , .phone-image{
-    background-color: white;
+.category-image , .phone-image{    
     height: 150px;
     width:  150px;
-    border-radius: 50%;
 }
 
+.category-image img{
+object-fit: fill;
+width: 150px;
+border-radius: 50%;
+}
+
+
+.category-image img:hover, .phone-image:hover{
+cursor: pointer;
+transform: scale(1.1);
+transition: all 0.3s ease-in-out;
+}
+
+.phone-image img{
+    width: 150px;
+}
+
+
+    
 .displayphone
 {
     font-size: 36px;
     font-weight: bold;
     text-align: center;
+    padding: 0px;
 }
 
 .phones{
-    background-color: blueviolet;
     height: 350px;
 }
 
 .phone-image{
+    display: flex;
     border-radius: 0;
-    height: 200px;
+    height: 250px;
+    width: 200px;
+    justify-content: center; 
+    align-items: center;
+flex-direction: column;
+box-shadow: 1px 5px 10px black;
+
+}
+
+.detials{
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.detials .small{
+    text-decoration: line-through;
 }
 
 .new-launch{
